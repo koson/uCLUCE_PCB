@@ -51,10 +51,10 @@ L MCP2003B U2
 U 1 1 59E11E5F
 P 3250 2550
 F 0 "U2" H 3050 2850 60  0000 C CNN
-F 1 "MCP2003B" H 3350 2250 60  0000 C CNN
+F 1 "MCP2003B-E/SN" H 3150 2250 60  0000 C CNN
 F 2 "Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm" H 3000 2350 60  0001 C CNN
 F 3 "" H 3000 2350 60  0001 C CNN
-F 4 "https://octopart.com/search?q=MCP2003B" H 3250 2550 60  0001 C CNN "1st Disrtib Link"
+F 4 "https://octopart.com/mcp2003b-e%2Fsn-microchip-67312985" H 3250 2550 60  0001 C CNN "1st Disrtib Link"
 	1    3250 2550
 	-1   0    0    1   
 $EndComp
