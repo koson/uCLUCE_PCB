@@ -1,4 +1,4 @@
-update=10/14/2017 16:03:41
+update=18/10/2017 16:44:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=LINlib
 LibName32=PIC16F
+LibName33=custom

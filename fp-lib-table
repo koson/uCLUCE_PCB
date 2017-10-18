@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name USB_A_DS1097)(type KiCad)(uri KIPRJMOD)(options "")(descr ""))
+  (lib (name uCLUCE_PCB)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
