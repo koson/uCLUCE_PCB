@@ -52,7 +52,7 @@ U 1 1 59E11E5F
 P 3250 2550
 F 0 "U2" H 3050 2850 60  0000 C CNN
 F 1 "MCP2003B-E/SN" H 3150 2250 60  0000 C CNN
-F 2 "Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm" H 3000 2350 60  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3000 2350 60  0001 C CNN
 F 3 "" H 3000 2350 60  0001 C CNN
 F 4 "https://octopart.com/mcp2003b-e%2Fsn-microchip-67312985" H 3250 2550 60  0001 C CNN "1st Disrtib Link"
 	1    3250 2550
@@ -90,14 +90,15 @@ F 0 "C1" V 6000 2350 50  0000 L CNN
 F 1 "0.47u" V 6100 2350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6050 2300 50  0001 C CNN
 F 3 "" H 6050 2300 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/kondensatory/kondensatory_ceramiczne/smd_0603/dielektryk_x7r_lub_x5r/cmc0603-470n-kx25-s.html" H 6050 2300 60  0001 C CNN "1st Disrtib Link"
 	1    6050 2300
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR16
+L GND #PWR01
 U 1 1 59E21FB8
 P 7350 2150
-F 0 "#PWR16" H 7350 1900 50  0001 C CNN
+F 0 "#PWR01" H 7350 1900 50  0001 C CNN
 F 1 "GND" H 7350 2000 50  0000 C CNN
 F 2 "" H 7350 2150 50  0001 C CNN
 F 3 "" H 7350 2150 50  0001 C CNN
@@ -105,10 +106,10 @@ F 3 "" H 7350 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR15
+L +5V #PWR02
 U 1 1 59E220C9
 P 6950 2900
-F 0 "#PWR15" H 6950 2750 50  0001 C CNN
+F 0 "#PWR02" H 6950 2750 50  0001 C CNN
 F 1 "+5V" H 6950 3040 50  0000 C CNN
 F 2 "" H 6950 2900 50  0001 C CNN
 F 3 "" H 6950 2900 50  0001 C CNN
@@ -116,10 +117,10 @@ F 3 "" H 6950 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR11
+L +5V #PWR03
 U 1 1 59E2213F
 P 4050 2000
-F 0 "#PWR11" H 4050 1850 50  0001 C CNN
+F 0 "#PWR03" H 4050 1850 50  0001 C CNN
 F 1 "+5V" H 4050 2140 50  0000 C CNN
 F 2 "" H 4050 2000 50  0001 C CNN
 F 3 "" H 4050 2000 50  0001 C CNN
@@ -127,10 +128,10 @@ F 3 "" H 4050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR1
+L +BATT #PWR04
 U 1 1 59E22154
 P 2000 2200
-F 0 "#PWR1" H 2000 2050 50  0001 C CNN
+F 0 "#PWR04" H 2000 2050 50  0001 C CNN
 F 1 "+BATT" V 1950 2400 50  0000 C CNN
 F 2 "" H 2000 2200 50  0001 C CNN
 F 3 "" H 2000 2200 50  0001 C CNN
@@ -138,10 +139,10 @@ F 3 "" H 2000 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR05
 U 1 1 59E22180
 P 2400 2200
-F 0 "#PWR2" H 2400 1950 50  0001 C CNN
+F 0 "#PWR05" H 2400 1950 50  0001 C CNN
 F 1 "GND" V 2300 2100 50  0000 C CNN
 F 2 "" H 2400 2200 50  0001 C CNN
 F 3 "" H 2400 2200 50  0001 C CNN
@@ -172,10 +173,10 @@ F 3 "" H 7250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR14
+L GND #PWR06
 U 1 1 59E230A7
 P 6950 2800
-F 0 "#PWR14" H 6950 2550 50  0001 C CNN
+F 0 "#PWR06" H 6950 2550 50  0001 C CNN
 F 1 "GND" V 6900 2600 50  0001 C CNN
 F 2 "" H 6950 2800 50  0001 C CNN
 F 3 "" H 6950 2800 50  0001 C CNN
@@ -187,10 +188,10 @@ MCLR
 Text Label 3850 2300 0    60   ~ 0
 MCLR
 $Comp
-L +5V #PWR13
+L +5V #PWR07
 U 1 1 59E237FB
 P 6550 2300
-F 0 "#PWR13" H 6550 2150 50  0001 C CNN
+F 0 "#PWR07" H 6550 2150 50  0001 C CNN
 F 1 "+5V" H 6550 2440 50  0000 C CNN
 F 2 "" H 6550 2300 50  0001 C CNN
 F 3 "" H 6550 2300 50  0001 C CNN
@@ -205,14 +206,15 @@ F 0 "C2" H 3550 1850 50  0000 L CNN
 F 1 "470n" H 3500 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3450 1850 50  0001 C CNN
 F 3 "" H 3450 1850 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/kondensatory/kondensatory_ceramiczne/smd_0603/dielektryk_x7r_lub_x5r/cmc0603-470n-kx25-s.html" H 3450 1850 60  0001 C CNN "1st Disrtib Link"
 	1    3450 1850
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR7
+L +5V #PWR08
 U 1 1 59E2335A
 P 3450 1750
-F 0 "#PWR7" H 3450 1600 50  0001 C CNN
+F 0 "#PWR08" H 3450 1600 50  0001 C CNN
 F 1 "+5V" H 3450 1890 50  0000 C CNN
 F 2 "" H 3450 1750 50  0001 C CNN
 F 3 "" H 3450 1750 50  0001 C CNN
@@ -220,10 +222,10 @@ F 3 "" H 3450 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR09
 U 1 1 59E2337A
 P 3450 1950
-F 0 "#PWR8" H 3450 1700 50  0001 C CNN
+F 0 "#PWR09" H 3450 1700 50  0001 C CNN
 F 1 "GND" H 3450 1800 50  0001 C CNN
 F 2 "" H 3450 1950 50  0001 C CNN
 F 3 "" H 3450 1950 50  0001 C CNN
@@ -231,10 +233,10 @@ F 3 "" H 3450 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR9
+L +5V #PWR010
 U 1 1 59E233BF
 P 3750 1750
-F 0 "#PWR9" H 3750 1600 50  0001 C CNN
+F 0 "#PWR010" H 3750 1600 50  0001 C CNN
 F 1 "+5V" H 3750 1890 50  0000 C CNN
 F 2 "" H 3750 1750 50  0001 C CNN
 F 3 "" H 3750 1750 50  0001 C CNN
@@ -242,10 +244,10 @@ F 3 "" H 3750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR011
 U 1 1 59E23423
 P 3750 1950
-F 0 "#PWR10" H 3750 1700 50  0001 C CNN
+F 0 "#PWR011" H 3750 1700 50  0001 C CNN
 F 1 "GND" H 3750 1800 50  0001 C CNN
 F 2 "" H 3750 1950 50  0001 C CNN
 F 3 "" H 3750 1950 50  0001 C CNN
@@ -260,14 +262,15 @@ F 0 "R1" H 2700 1500 50  0000 L CNN
 F 1 "1k" H 2700 1400 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 2650 1450 50  0001 C CNN
 F 3 "" H 2650 1450 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/rezystory/rezystory_smd/rezystory_smd_0603/rezystory_smd_w_rozmiarze_0603_w_tolerancji_5/rmc0603-1k0-s.html" H 2650 1450 60  0001 C CNN "1st Disrtib Link"
 	1    2650 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR3
+L +BATT #PWR012
 U 1 1 59E23A89
 P 2650 1050
-F 0 "#PWR3" H 2650 900 50  0001 C CNN
+F 0 "#PWR012" H 2650 900 50  0001 C CNN
 F 1 "+BATT" H 2650 1190 50  0000 C CNN
 F 2 "" H 2650 1050 50  0001 C CNN
 F 3 "" H 2650 1050 50  0001 C CNN
@@ -293,6 +296,7 @@ F 0 "C3" H 3850 1850 50  0000 L CNN
 F 1 "100n" H 3750 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3750 1850 50  0001 C CNN
 F 3 "" H 3750 1850 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/kondensatory/kondensatory_ceramiczne/smd_0603/dielektryk_x7r_lub_x5r/cmc0603-100n-kx16-s.html" H 3750 1850 60  0001 C CNN "1st Disrtib Link"
 	1    3750 1850
 	-1   0    0    1   
 $EndComp
@@ -304,14 +308,15 @@ F 0 "R2" H 4000 2650 50  0000 L CNN
 F 1 "4,7k" H 4000 2550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3950 2600 50  0001 C CNN
 F 3 "" H 3950 2600 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/rezystory/rezystory_smd/rezystory_smd_0603/rezystory_smd_0603_w_tolerancji_1/rmc0603-4k7-1-y.html" H 3950 2600 60  0001 C CNN "1st Disrtib Link"
 	1    3950 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR013
 U 1 1 59E51428
 P 2800 2150
-F 0 "#PWR5" H 2800 1900 50  0001 C CNN
+F 0 "#PWR013" H 2800 1900 50  0001 C CNN
 F 1 "GND" H 2800 2000 50  0001 C CNN
 F 2 "" H 2800 2150 50  0001 C CNN
 F 3 "" H 2800 2150 50  0001 C CNN
@@ -319,10 +324,10 @@ F 3 "" H 2800 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR12
+L +5V #PWR014
 U 1 1 59E50C40
 P 4150 2950
-F 0 "#PWR12" H 4150 2800 50  0001 C CNN
+F 0 "#PWR014" H 4150 2800 50  0001 C CNN
 F 1 "+5V" H 4150 3090 50  0000 C CNN
 F 2 "" H 4150 2950 50  0001 C CNN
 F 3 "" H 4150 2950 50  0001 C CNN
@@ -335,8 +340,9 @@ U 1 1 59E64A57
 P 2900 2900
 F 0 "C5" H 2910 2970 50  0000 L CNN
 F 1 "1u" H 2910 2820 50  0000 L CNN
-F 2 "" H 2900 2900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2900 2900 50  0001 C CNN
 F 3 "" H 2900 2900 50  0000 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/kondensatory/kondensatory_ceramiczne/smd_0603/dielektryk_x7r_lub_x5r/cmc0603-1000n-kx16-s.html" H 2900 2900 60  0001 C CNN "1st Disrtib Link"
 	1    2900 2900
 	1    0    0    -1  
 $EndComp
@@ -346,8 +352,9 @@ U 1 1 59E64C14
 P 2800 2050
 F 0 "C4" H 2810 2120 50  0000 L CNN
 F 1 "220p" H 2810 1970 50  0000 L CNN
-F 2 "" H 2800 2050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2800 2050 50  0001 C CNN
 F 3 "" H 2800 2050 50  0000 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/kondensatory/kondensatory_ceramiczne/smd_0603/dielektryk_x7r_lub_x5r/cmc0603-680p-kx16-f.html" H 2800 2050 60  0001 C CNN "1st Disrtib Link"
 	1    2800 2050
 	1    0    0    -1  
 $EndComp
@@ -376,10 +383,10 @@ F 4 "https://www.tme.eu/pl/details/smbd914e6327htsa1/diody-uniwersalne-smd/infin
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR015
 U 1 1 59E668FA
 P 2700 3000
-F 0 "#PWR4" H 2700 2750 50  0001 C CNN
+F 0 "#PWR015" H 2700 2750 50  0001 C CNN
 F 1 "GND" H 2700 2850 50  0000 C CNN
 F 2 "" H 2700 3000 50  0001 C CNN
 F 3 "" H 2700 3000 50  0001 C CNN
@@ -394,6 +401,7 @@ F 0 "R3" H 2600 2650 50  0000 L CNN
 F 1 "50" H 2600 2550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 2550 2600 50  0001 C CNN
 F 3 "" H 2550 2600 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/rezystory/rezystory_smd/rezystory_smd_0603/rezystory_smd_w_rozmiarze_0603_w_tolerancji_5/rmc0603-51r-y.html" H 2550 2600 60  0001 C CNN "1st Disrtib Link"
 	1    2550 2600
 	0    1    1    0   
 $EndComp
@@ -475,10 +483,10 @@ Wire Wire Line
 	2700 2800 2900 2800
 Connection ~ 2700 2800
 $Comp
-L GND #PWR6
+L GND #PWR016
 U 1 1 59E67A70
 P 2900 3000
-F 0 "#PWR6" H 2900 2750 50  0001 C CNN
+F 0 "#PWR016" H 2900 2750 50  0001 C CNN
 F 1 "GND" H 2900 2850 50  0000 C CNN
 F 2 "" H 2900 3000 50  0001 C CNN
 F 3 "" H 2900 3000 50  0001 C CNN
@@ -507,17 +515,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2600 2050 2600
 Connection ~ 2000 2600
-$Comp
-L CONN_01X02 P2
-U 1 1 59E765D9
-P 3800 3400
-F 0 "P2" H 3800 3550 50  0000 C CNN
-F 1 "UART_TTL" V 3900 3400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3800 3400 50  0001 C CNN
-F 3 "" H 3800 3400 50  0000 C CNN
-	1    3800 3400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3750 3200 3750 2700
 Connection ~ 3750 2700
@@ -534,5 +531,27 @@ F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 6700 1150 60  0001 
 F 3 "" H 6700 1150 60  0001 C CNN
 	1    6700 1150
 	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 59E7CE46
+P 3750 3400
+F 0 "P2" H 3750 3600 50  0000 C CNN
+F 1 "UART_TTL" V 3850 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3750 3400 50  0001 C CNN
+F 3 "" H 3750 3400 50  0000 C CNN
+	1    3750 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59E7D0F4
+P 3650 3200
+F 0 "#PWR?" H 3650 2950 50  0001 C CNN
+F 1 "GND" H 3650 3050 50  0000 C CNN
+F 2 "" H 3650 3200 50  0001 C CNN
+F 3 "" H 3650 3200 50  0001 C CNN
+	1    3650 3200
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
