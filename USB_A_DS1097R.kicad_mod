@@ -1,7 +1,7 @@
-(module USB_A_DS1097R (layer F.Cu) (tedit 577A89C1)
+(module USB_A_DS1097R (layer F.Cu) (tedit 5A1C46F1)
   (descr "USB A connector")
   (tags "USB USB_A")
-  (fp_text reference P3 (at -1.778 0 90) (layer F.SilkS)
+  (fp_text reference P1 (at -1.778 0 90) (layer F.SilkS)
     (effects (font (size 0.4 0.4) (thickness 0.09)))
   )
   (fp_text value USB_A (at 3.83794 7.43458) (layer F.Fab) hide
