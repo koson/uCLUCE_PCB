@@ -76,7 +76,7 @@ U 1 1 59E12103
 P 6850 2100
 F 0 "P1" V 7100 2000 50  0000 C CNN
 F 1 "USB_A" H 6800 2300 50  0000 C CNN
-F 2 "uCLUCE_PCB:USB_A_DS1097R" V 6800 2000 50  0001 C CNN
+F 2 "uCLUCE_PCB:USB_A_DS1097" V 6800 2000 50  0001 C CNN
 F 3 "" V 6800 2000 50  0000 C CNN
 F 4 "https://www.maritex.com.pl/zlacza/zlacza_usb_hdmi_ieee/zlacza_i_kable_usb/wtyk_usb_1xa4_katowy/usbp1arw-cv.html" H 6850 2100 60  0001 C CNN "1st Disrtib Link"
 	1    6850 2100
@@ -303,14 +303,14 @@ $EndComp
 $Comp
 L R_Small R2
 U 1 1 59E50B0E
-P 3950 2600
-F 0 "R2" H 4000 2650 50  0000 L CNN
-F 1 "4,7k" H 4000 2550 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3950 2600 50  0001 C CNN
-F 3 "" H 3950 2600 50  0001 C CNN
-F 4 "https://www.maritex.com.pl/elementy_pasywne/rezystory/rezystory_smd/rezystory_smd_0603/rezystory_smd_0603_w_tolerancji_1/rmc0603-4k7-1-y.html" H 3950 2600 60  0001 C CNN "1st Disrtib Link"
-	1    3950 2600
-	1    0    0    -1  
+P 3650 2950
+F 0 "R2" V 3550 2900 50  0000 L CNN
+F 1 "4,7k" V 3750 2850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 3650 2950 50  0001 C CNN
+F 3 "" H 3650 2950 50  0001 C CNN
+F 4 "https://www.maritex.com.pl/elementy_pasywne/rezystory/rezystory_smd/rezystory_smd_0603/rezystory_smd_0603_w_tolerancji_1/rmc0603-4k7-1-y.html" H 3650 2950 60  0001 C CNN "1st Disrtib Link"
+	1    3650 2950
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR013
@@ -326,13 +326,13 @@ $EndComp
 $Comp
 L +5V #PWR014
 U 1 1 59E50C40
-P 4150 2950
-F 0 "#PWR014" H 4150 2800 50  0001 C CNN
-F 1 "+5V" H 4150 3090 50  0000 C CNN
-F 2 "" H 4150 2950 50  0001 C CNN
-F 3 "" H 4150 2950 50  0001 C CNN
-	1    4150 2950
-	1    0    0    -1  
+P 3550 2950
+F 0 "#PWR014" H 3550 2800 50  0001 C CNN
+F 1 "+5V" V 3500 3150 50  0000 C CNN
+F 2 "" H 3550 2950 50  0001 C CNN
+F 3 "" H 3550 2950 50  0001 C CNN
+	1    3550 2950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP1_Small C5
@@ -405,75 +405,6 @@ F 4 "https://www.maritex.com.pl/elementy_pasywne/rezystory/rezystory_smd/rezysto
 	1    2550 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5950 2100 6550 2100
-Wire Wire Line
-	5950 2200 6550 2200
-Wire Wire Line
-	6300 1800 7350 1800
-Connection ~ 6950 1800
-Wire Wire Line
-	5950 2000 6550 2000
-Wire Wire Line
-	1900 2500 2750 2500
-Wire Wire Line
-	1900 2400 2750 2400
-Connection ~ 2500 2400
-Wire Wire Line
-	7050 2900 6950 2900
-Wire Wire Line
-	6550 2400 5950 2400
-Wire Wire Line
-	6350 2500 6350 2800
-Wire Wire Line
-	6350 2500 5950 2500
-Wire Wire Line
-	6450 3000 7050 3000
-Connection ~ 2650 2500
-Connection ~ 3950 2500
-Wire Wire Line
-	2500 2400 2500 2200
-Wire Wire Line
-	2500 2200 2400 2200
-Wire Wire Line
-	7350 1800 7350 2150
-Wire Wire Line
-	6150 2300 6300 2300
-Wire Wire Line
-	6300 2300 6300 1800
-Connection ~ 6300 2000
-Wire Wire Line
-	3950 2950 3950 2700
-Wire Wire Line
-	4150 2950 3950 2950
-Wire Wire Line
-	4050 2300 3850 2300
-Wire Wire Line
-	3800 2500 4050 2500
-Wire Wire Line
-	3800 2500 3800 2700
-Wire Wire Line
-	4050 2400 3700 2400
-Wire Wire Line
-	3700 2500 3750 2500
-Wire Wire Line
-	3750 2500 3750 2200
-Wire Wire Line
-	3750 2200 4050 2200
-Wire Wire Line
-	3700 2600 4050 2600
-Wire Wire Line
-	3800 2700 3700 2700
-Wire Wire Line
-	2650 2600 2750 2600
-Wire Wire Line
-	2450 2600 2350 2600
-Wire Wire Line
-	2700 2600 2700 2800
-Connection ~ 2700 2600
-Wire Wire Line
-	2700 2800 2900 2800
-Connection ~ 2700 2800
 $Comp
 L GND #PWR016
 U 1 1 59E67A70
@@ -485,11 +416,6 @@ F 3 "" H 2900 3000 50  0001 C CNN
 	1    2900 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 1950 2650 2500
-Wire Wire Line
-	2800 1950 2650 1950
-Connection ~ 2650 1950
 $Comp
 L D D3
 U 1 1 59E69913
@@ -502,24 +428,13 @@ F 4 "https://www.tme.eu/pl/details/smbd914e6327htsa1/diody-uniwersalne-smd/infin
 	1    2200 2600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2000 2200 2000 2600
-Wire Wire Line
-	1900 2600 2050 2600
-Connection ~ 2000 2600
-Wire Wire Line
-	3750 3200 3750 2700
-Connection ~ 3750 2700
-Wire Wire Line
-	3850 3200 3850 2400
-Connection ~ 3850 2400
 $Comp
 L fiducial U3
 U 1 1 59E769F4
 P 6700 1150
 F 0 "U3" H 6500 1400 60  0001 C CNN
 F 1 "fiducial" H 6900 1350 60  0000 C CNN
-F 2 "uCLUCE_PCB:FICUCIAL_MIN" H 6700 1150 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 6700 1150 60  0001 C CNN
 F 3 "" H 6700 1150 60  0001 C CNN
 	1    6700 1150
 	1    0    0    -1  
@@ -547,9 +462,92 @@ F 3 "" H 3650 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
+	5950 2100 6550 2100
+Wire Wire Line
+	5950 2200 6550 2200
+Wire Wire Line
+	6300 1800 7350 1800
+Connection ~ 6950 1800
+Wire Wire Line
+	5950 2000 6550 2000
+Wire Wire Line
+	1900 2500 2750 2500
+Wire Wire Line
+	1900 2400 2750 2400
+Connection ~ 2500 2400
+Wire Wire Line
+	7050 2900 6950 2900
+Wire Wire Line
 	6350 2800 7050 2800
+Wire Wire Line
+	6550 2700 7050 2700
 Wire Wire Line
 	6550 2700 6550 2400
 Wire Wire Line
-	6550 2700 7050 2700
+	6550 2400 5950 2400
+Wire Wire Line
+	6350 2500 6350 2800
+Wire Wire Line
+	6350 2500 5950 2500
+Wire Wire Line
+	6450 3000 7050 3000
+Connection ~ 2650 2500
+Wire Wire Line
+	2500 2400 2500 2200
+Wire Wire Line
+	2500 2200 2400 2200
+Wire Wire Line
+	7350 1800 7350 2150
+Wire Wire Line
+	6150 2300 6300 2300
+Wire Wire Line
+	6300 2300 6300 1800
+Connection ~ 6300 2000
+Wire Wire Line
+	4050 2300 3850 2300
+Wire Wire Line
+	3700 2500 3750 2500
+Wire Wire Line
+	3750 2500 3750 2200
+Wire Wire Line
+	3750 2200 4050 2200
+Wire Wire Line
+	3700 2600 4050 2600
+Wire Wire Line
+	3700 2700 4000 2700
+Wire Wire Line
+	2650 2600 2750 2600
+Wire Wire Line
+	2450 2600 2350 2600
+Wire Wire Line
+	2700 2600 2700 2800
+Connection ~ 2700 2600
+Wire Wire Line
+	2700 2800 2900 2800
+Connection ~ 2700 2800
+Wire Wire Line
+	2650 1950 2650 2500
+Wire Wire Line
+	2800 1950 2650 1950
+Connection ~ 2650 1950
+Wire Wire Line
+	2000 2200 2000 2600
+Wire Wire Line
+	1900 2600 2050 2600
+Connection ~ 2000 2600
+Wire Wire Line
+	3750 3200 3750 2700
+Connection ~ 3750 2700
+Connection ~ 3750 2950
+Wire Wire Line
+	4050 2400 4000 2400
+Wire Wire Line
+	4000 2400 4000 2700
+Wire Wire Line
+	3700 2400 3850 2400
+Wire Wire Line
+	3850 2400 3850 3200
+Wire Wire Line
+	3850 2500 4050 2500
+Connection ~ 3850 2500
 $EndSCHEMATC
