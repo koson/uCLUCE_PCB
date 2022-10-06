@@ -1146,11 +1146,11 @@
     (uuid f91ac78e-7cee-47d7-8e61-2fbf02c381e8)
   )
 
-  (label "MCLR" (at 97.79 58.42 0)
+  (label "MCLR" (at 97.79 58.42 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid a0ac6463-67b0-4eff-8330-4562c2c131c3)
   )
-  (label "MCLR" (at 163.83 76.2 0)
+  (label "MCLR" (at 163.83 76.2 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid fd6413d3-ac7c-4342-adea-b1b7b9d0bdff)
   )
